@@ -17,7 +17,7 @@ while (nombrePersona != "ESC") {
 
 // SALIDA DE DATOS
     informarCalculo(nombrePersona, montoCalcular, cuotas, cuotaPagar);
-    nombrePersona = prompt("Ingrese otro Nombre y Apellido: (ESC para salir)");
+    nombrePersona = prompt("Ingrese otro Nombre: (ESC para salir)");
 }
 
 function calcularCuota(montoCalcular, cuotas) {
